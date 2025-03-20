@@ -13,8 +13,8 @@ This is an example markdown file to demonstrate the documentation visualizer.
 
 ```javascript
 const example = {
-  name: 'Documentation Visualizer',
-  features: ['Interactive', 'Real-time', 'Responsive'],
-  isAwesome: true
+	name: 'Documentation Visualizer',
+	features: ['Interactive', 'Real-time', 'Responsive'],
+	isAwesome: true,
 };
 ```
