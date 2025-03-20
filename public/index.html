@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Documentation Visualizer</title>
+		<link rel="stylesheet" href="styles.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css"
+		/>
+	</head>
+	<body>
+		<div class="container">
+			<div id="graph"></div>
+			<div id="content" class="hidden">
+				<div id="markdownContent"></div>
+			</div>
+		</div>
+		<script src="https://d3js.org/d3.v7.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+		<script src="js/graph.js" type="module"></script>
+		<script src="js/content.js" type="module"></script>
+		<script src="js/app.js" type="module"></script>
+	</body>
+</html>

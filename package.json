@@ -1,0 +1,32 @@
+{
+	"name": "docs_system",
+	"version": "1.0.0",
+	"description": "",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"start": "node app.js",
+		"dev": "nodemon app.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/AlekOmOm/Docs_System.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/AlekOmOm/Docs_System/issues"
+	},
+	"homepage": "https://github.com/AlekOmOm/Docs_System#readme",
+	"dependencies": {
+		"d3": "^7.9.0",
+		"dotenv": "^16.4.7",
+		"express": "^4.21.2",
+		"fs": "^0.0.1-security",
+		"highlight.js": "^11.11.1",
+		"marked": "^15.0.7",
+		"path": "^0.12.7"
+	}
+}
