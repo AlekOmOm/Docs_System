@@ -10,6 +10,7 @@ const indexTemplate = readPage('./public/pages/index/index.html');
 export const indexPage = constructPage(indexTemplate, {
 	title: 'Documentation Visualizer',
 	cssLinks: `
+        <link rel="stylesheet" href="/assets/css/styles.css">
         <link rel="stylesheet" href="/assets/css/main.css">
         <link rel="stylesheet" href="/assets/css/navbar.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css" />

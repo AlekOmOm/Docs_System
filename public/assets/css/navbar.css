@@ -1,7 +1,9 @@
 nav {
-	background-color: var(--primary-color, #2563eb);
+	background-color: var(--primary-color, #a06308);
 	padding: 1rem 2rem;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+	width: 100%;
 }
 
 nav a {
@@ -19,7 +21,6 @@ nav a:hover {
 
 main {
 	min-height: calc(100vh - 120px);
-	padding: 2rem;
 }
 
 footer {

@@ -7,6 +7,7 @@ import { indexPage } from '../util/pages.js';
 // --- Routes ---
 
 router.get('/', (req, res) => {
+	console.log('GET /');
 	res.send(indexPage);
 });
 

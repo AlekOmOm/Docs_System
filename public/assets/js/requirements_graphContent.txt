@@ -1,0 +1,25 @@
+Requirements
+
+- Content Panel for Markdown Files
+
+- Toggle visibility based on node/background clicks
+- Show formatted markdown content
+
+
+Graph Visualization
+
+- Display nodes for directories and files in docs/ folder
+- Visually distinguish between directory and file nodes
+
+
+Node Interactions
+
+- Nodes should be clickable
+- Clicking should highlight parent and children nodes
+- File nodes should open content in the panel
+
+
+Graph State Management
+
+- Dim and resize graph when document is opened
+- Restore graph when content panel is closed
