@@ -10,9 +10,5 @@ router.get('/', (req, res) => {
 	res.send(indexPage);
 });
 
-router.get('/docs', (req, res) => {
-	res.sendFile('/pages/index/index.html');
-});
-
 // --- Export ---
 export default router;
