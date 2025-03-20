@@ -1,15 +1,18 @@
-# Welcome to Documentation Visualizer
+# Welcome to Note System  
 
-This is an example markdown file to demonstrate the documentation visualizer.
+simple note visualization system for .md files
+
 
 ## Features
 
-- Interactive node-based graph visualization
-- Real-time updates when files change
-- Markdown rendering with syntax highlighting
-- Responsive design
+```markdown
+ - Interactive node-based graph visualization
+ - Real-time updates when files change
+ - Markdown rendering with syntax highlighting
+ - Responsive design
+```
 
-## Code Example
+## .md Code Example
 
 ```javascript
 const example = {
@@ -17,4 +20,13 @@ const example = {
 	features: ['Interactive', 'Real-time', 'Responsive'],
 	isAwesome: true,
 };
+```
+
+## tech stack 
+
+```markdown
+- marked 
+- d3.js
+- express
+
 ```

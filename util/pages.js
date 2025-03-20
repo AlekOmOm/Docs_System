@@ -8,7 +8,7 @@ const indexTemplate = readPage('./public/pages/index/index.html');
  * @returns {string} Complete HTML page
  */
 export const indexPage = constructPage(indexTemplate, {
-	title: 'Documentation Visualizer',
+	title: 'Notes Visualizer',
 	cssLinks: `
         <link rel="stylesheet" href="/assets/css/styles.css">
         <link rel="stylesheet" href="/assets/css/main.css">
