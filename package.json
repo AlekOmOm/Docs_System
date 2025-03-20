@@ -5,8 +5,8 @@
 	"type": "module",
 	"main": "index.js",
 	"scripts": {
-		"start": "cross-env NODE_ENV=prod PORT=8080 node app.js",
-		"dev": "cross-env NODE_ENV=dev PORT=3000 nodemon app.js",
+		"start": "cross-env NODE_ENV=prod PORT=8402 node app.js",
+		"dev": "cross-env NODE_ENV=dev PORT=3402 nodemon app.js",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
