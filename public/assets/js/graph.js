@@ -8,6 +8,7 @@ export class GraphVisualizer {
 		this.nodes = [];
 		this.links = [];
 		this.onNodeClick = null;
+		this.onBackgroundClick = null;
 		this.columnWidth = 200;
 		this.nodeRadius = { directory: 10, file: 8 };
 

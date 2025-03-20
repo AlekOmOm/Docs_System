@@ -1,0 +1,57 @@
+.welcome-container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+}
+
+.welcome-container h1 {
+	font-size: 2.5rem;
+	margin-bottom: 1rem;
+	color: var(--primary-color, #2563eb);
+}
+
+.welcome-container p {
+	font-size: 1.2rem;
+	margin-bottom: 2rem;
+	color: var(--text-color, #1e293b);
+}
+
+.buttons {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+	margin-top: 2rem;
+}
+
+.button {
+	display: inline-block;
+	padding: 0.75rem 1.5rem;
+	border-radius: 0.375rem;
+	text-decoration: none;
+	font-weight: 500;
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+
+.button.primary {
+	background-color: var(--primary-color, #2563eb);
+	color: white;
+	box-shadow: 0 2px 4px rgba(37, 99, 235, 0.2);
+}
+
+.button.primary:hover {
+	background-color: var(--node-hover-color, #1d4ed8);
+	transform: translateY(-1px);
+}
+
+.button.secondary {
+	background-color: white;
+	color: var(--primary-color, #2563eb);
+	border: 1px solid var(--primary-color, #2563eb);
+}
+
+.button.secondary:hover {
+	background-color: #f8fafc;
+	transform: translateY(-1px);
+}

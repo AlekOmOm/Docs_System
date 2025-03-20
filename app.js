@@ -5,12 +5,20 @@ import { Marked } from 'marked';
 import { readPage, constructPage } from './util/templatingEngine.js';
 
 const app = express();
-
 dotenv.config();
-
-const HOST = process.env.HOST || 'localhost';
-const PORT = process.env.PORT || 3000;
-
 app.use(express.static('public'));
 
-import 
+import apiRouter from './routers/apiRouter.js';
+import pagesRouter from './routers/pagesRouter.js';
+
+// --- Routers ---
+
+app.use('/api', apiRouter);
+app.use(pagesRouter);
+
+// --- Server ---
+const HOST = process.env.HOST || 'localhost';
+const PORT = Number(process.env.PORT) || 8080;
+const server = app.listen(PORT, () =>
+	console.log('Server is running on port', server.address().port),
+);

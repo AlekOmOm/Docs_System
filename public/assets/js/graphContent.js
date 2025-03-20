@@ -1,7 +1,11 @@
 import { GraphVisualizer } from '../../js/graph.js';
 import { ContentManager } from '../../js/content.js';
 
-class App {
+/**
+ * @description Main application class that initializes the graph visualizer and content manager.
+ * */
+
+class GraphContent {
 	constructor() {
 		this.graph = new GraphVisualizer('#graph');
 		this.content = new ContentManager();
@@ -41,8 +45,15 @@ class App {
 			}
 			this.graph.highlightRelatedNodes(node);
 		};
+		this.graph.onBackgroundClick = () => {
+			this.content.hide();
+			this.graph.resetHighlight();
+		};
 	}
 
+	/**
+	 * @description Polls the server for updates to the structure every 5 seconds.
+	 */
 	startPolling() {
 		// Poll for updates every 5 seconds
 		setInterval(async () => {
@@ -65,5 +76,4 @@ class App {
 	}
 }
 
-// Initialize the application
 const app = new App();
